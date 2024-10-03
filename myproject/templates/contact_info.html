@@ -1,0 +1,19 @@
+<!-- templates/contact_info.html -->
+<h2>Contact Information</h2>
+
+<div>
+    <h3>For Clients</h3>
+    <p><strong>Email:</strong> {{ contact_info.email }}</p>
+    <p><strong>Phone:</strong> {{ contact_info.phone }}</p>
+    <p><strong>Address:</strong> {{ contact_info.address }}</p>
+</div>
+
+<div>
+    <h3>For Other Inquiries</h3>
+    <p><strong>Email:</strong> kaushikaashu982@gmail</p>
+    <p><strong>Phone:</strong> (9045) 6018</p>
+</div>
+
+<!-- Optional: Add a Contact Form Button -->
+<a href="{% url 'contact_us' %}" class="btn btn-info" style = "text-decoration:none">Contact Us</a>
+
